@@ -1,0 +1,193 @@
+main{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title2{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+main .line{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 650px;
+    height: 2px;
+    border-style: none;
+    background: rgba(95, 95, 95, 0.549);
+    margin-top: 20px;
+}
+
+.container-comments,
+.container-comments-request{
+    margin-top: 20px;
+}
+
+.container-comments-request{
+    margin-left: 100px;
+}
+
+.comments,
+.comments-request{
+    display: flex;
+}
+
+.photo-perfil{
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo-perfil-request{
+    width: 200px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo-perfil-request img{
+    width: 100%;
+    height: 100%;
+}
+
+.photo-perfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.info-comments,
+.info-comments-request{
+    margin-left: 20px;
+    background: rgb(181, 179, 179);
+    transition: all 300ms;
+    margin-top: 10px;
+}
+
+.info-comments:hover,
+.info-comments-request:hover{
+    border-bottom:  2px solid black;
+}
+
+.info-comments .header,
+.info-comments-request .header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(31, 169, 179);
+    color: white;
+    padding: 10px;
+}
+
+.info-comments .ptext,
+.info-comments-request .ptext{
+    padding: 20px;
+    text-align: justify;
+}
+
+.info-comments .footer1,
+.info-comments-request .footer1{
+    display: flex;
+    color: rgb(172, 172, 171);
+    border: none;
+    background: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.info-comments .footer1 .request,
+.info-comments-request .footer1 .request{
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.info-comments .icon,
+.info-comments-request .icon{
+    color: #aaaaaa;
+    transition: all 300ms;
+}
+
+.info-comments .icon:hover,
+.info-comments-request .icon:hover{
+    color: #eb1010;
+    cursor: pointer;
+}
+
+/*comentarios*/
+.container-data{
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    background: #bfbfbf51;
+    padding: 20px;
+    padding-bottom: 70px;
+    z-index: 11;
+    border-top: 4px solid rgb(31, 169, 179);
+}
+
+.fhoto-input{
+    display: flex;
+}
+
+.perfil-photo{
+    width: 100px;
+    height: 96px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.perfil-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.fhoto-input input{
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    background: none;
+    border-style: none;
+    outline: 0px;
+    border-bottom: 2px solid #8d8d8d;
+    color: #bfbcbc;  
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.mensaje{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 100%;
+    margin-top: 20px;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.btn-coment{
+    position: relative;
+    right: 0;
+    float: right;
+    padding: 10px 80px;
+    font-size: 16px;
+    background: rgb(31, 169, 179);
+    color:white;
+    border-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.capa-data{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity:  0.8;
+    z-index: 10;
+}

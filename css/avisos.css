@@ -1,0 +1,36 @@
+.body .title{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.body p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 7px;
+    color: black;
+}
+
+.body .lista .lista2{
+    text-align: justify;
+    font-size: 15px;
+    color:black;
+    text-decoration: black;
+}
+
+.body .lista li:hover{
+    font-size: 15;
+    color:black;
+}
+
+.navcontainer i{
+    color: black;
+}
+
+.navcontainer ul li{
+    display: inline-flex;
+    padding: 3px;
+    margin: 0 10px;
+    text-decoration: none;
+}

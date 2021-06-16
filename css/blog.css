@@ -1,0 +1,177 @@
+.parent{
+    display: inline-block;
+}
+
+.blog{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.blog p{
+    padding: 1px;
+    color: #103073;
+    font-size: 29px;
+    text-align: justify;
+}
+
+.blog label{
+    padding: 3px;
+    margin: 3px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.btnicon{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 2px;
+}
+
+.btnicon .tw{
+    cursor: pointer;
+    background: #1b95e0;    
+    color: white;
+    font-size: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.btnicon .like{
+    cursor: pointer;
+    background: rgba(9, 30, 66);    
+    color: white;
+    font-size: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.btnicon .share{
+    cursor: pointer;
+    background: rgba(9, 30, 66);    
+    color: white;
+    font-size: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.btnicon i{
+    color: rgb(250, 250, 250);
+    font-size:10px;
+}
+
+.blog2{
+    display: flex;
+    padding: 5px;
+}
+
+.blog2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.blog2 p{
+    padding: 5px;
+    text-align: justify;
+    align-content: center;
+    justify-content: center;
+}
+
+.divv{
+    display:inline-flex;
+}
+
+.divv label{
+    padding: 9px;
+    font-size: 10px;
+}
+
+.divv button{
+    font-size: 9px;
+    color: #ffffff;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.divv button:hover{
+    background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.divv button a{
+    text-decoration: none;
+    color: white;
+}
+
+.busca{
+    padding: 0;
+    margin: 0;
+}
+
+.busca h3{
+    padding: 4px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.busca select{
+    text-align: center;
+    padding: 4px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid rgb(5, 134, 255);
+}
+
+.busca label{
+    cursor: pointer;
+    font-size: 9px;
+    color: #ffffff;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.public{
+    padding: 0;
+    margin: 0;
+}
+.public h3{
+    padding: 4px;
+}
+
+.public ul{
+    list-style: none;
+}
+
+.public li{
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}

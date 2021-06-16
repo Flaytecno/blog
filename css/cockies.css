@@ -1,0 +1,28 @@
+.navcontainer i{
+    color: black;
+}
+
+.navcontainer ul li{
+    display: inline-flex;
+    padding: 3px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.polit{
+    text-align: justify;
+    padding: 5px;
+    font-size: 12px;
+    cursor:auto;
+}
+
+.polit h1{
+    text-align: center;
+    padding: 5px;
+    cursor:auto;
+}
+
+.polit p{
+    padding: 5px;
+    cursor:auto;
+}
